@@ -90,9 +90,9 @@ done < machines.txt
 ```
 
 ```text
-aarch64 GNU/Linux
-aarch64 GNU/Linux
-aarch64 GNU/Linux
+x86_64 GNU/Linux
+x86_64 GNU/Linux
+x86_64 GNU/Linux
 ```
 
 ## Hostnames
@@ -201,9 +201,9 @@ done
 ```
 
 ```text
-server aarch64 GNU/Linux
-node-0 aarch64 GNU/Linux
-node-1 aarch64 GNU/Linux
+server x86_64 GNU/Linux
+node-0 x86_64 GNU/Linux
+node-1 x86_64 GNU/Linux
 ```
 
 ## Adding `/etc/hosts` Entries To The Remote Machines
