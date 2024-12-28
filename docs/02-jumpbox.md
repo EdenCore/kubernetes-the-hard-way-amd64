@@ -26,13 +26,13 @@ Now it's time to download a copy of this tutorial which contains the configurati
 
 ```bash
 git clone --depth 1 \
-  https://github.com/kelseyhightower/kubernetes-the-hard-way.git
+  https://github.com/EdenCore/kubernetes-the-hard-way-amd64.git
 ```
 
-Change into the `kubernetes-the-hard-way` directory:
+Change into the `kubernetes-the-hard-way-amd64` directory:
 
 ```bash
-cd kubernetes-the-hard-way
+cd kubernetes-the-hard-way-amd64
 ```
 
 This will be the working directory for the rest of the tutorial. If you ever get lost run the `pwd` command to verify you are in the right directory when running commands on the `jumpbox`:
@@ -42,7 +42,7 @@ pwd
 ```
 
 ```text
-/root/kubernetes-the-hard-way
+/root/kubernetes-the-hard-way-amd64
 ```
 
 ### Download Binaries
@@ -73,17 +73,17 @@ ls -loh downloads
 
 ```text
 total 510M
--rw-r--r-- 1 root 48M Oct 15 02:37 cni-plugins-linux-arm64-v1.6.0.tgz
--rw-r--r-- 1 root 32M Nov  5 11:37 containerd-2.0.0-linux-arm64.tar.gz
--rw-r--r-- 1 root 17M Aug 13 03:48 crictl-v1.31.1-linux-arm64.tar.gz
--rw-r--r-- 1 root 16M Sep 11 11:28 etcd-v3.4.34-linux-arm64.tar.gz
+-rw-r--r-- 1 root 48M Oct 15 02:37 cni-plugins-linux-amd64-v1.6.0.tgz
+-rw-r--r-- 1 root 32M Nov  5 11:37 containerd-2.0.0-linux-amd64.tar.gz
+-rw-r--r-- 1 root 17M Aug 13 03:48 crictl-v1.31.1-linux-amd64.tar.gz
+-rw-r--r-- 1 root 16M Sep 11 11:28 etcd-v3.4.34-linux-amd64.tar.gz
 -rw-r--r-- 1 root 84M Oct 22 21:41 kube-apiserver
 -rw-r--r-- 1 root 79M Oct 22 21:41 kube-controller-manager
 -rw-r--r-- 1 root 53M Oct 22 21:41 kubectl
 -rw-r--r-- 1 root 72M Oct 22 21:41 kubelet
 -rw-r--r-- 1 root 61M Oct 22 21:41 kube-proxy
 -rw-r--r-- 1 root 60M Oct 22 21:41 kube-scheduler
--rw-r--r-- 1 root 11M Nov  1 15:23 runc.arm64
+-rw-r--r-- 1 root 11M Nov  1 15:23 runc.amd64
 ```
 
 ### Install kubectl
